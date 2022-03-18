@@ -1,5 +1,5 @@
 @media only screen and (max-width: 375px) {
-  .header {
+  /*.header {
     width: 375px;
     height: 51px;
     background: #3c3a39;
@@ -8,24 +8,31 @@
     margin-left: -10px;
     top: -1px;
   }
-
-  .imagcss {
-    height: 15px;
-    width: 20px;
-    flex: none;
-    margin-left: 80px;
-  }
-
-  .toolbar {
+ .toolbar {
     margin-top: 18px;
     flex-grow: 1;
-  }
+  }*/
+  body{
+    margin: 0
+}
 
-  .logo {
-    position: static;
+.header {
+    width: 375px;
+    right: 20px;
+    height: 51px;
+    background: #3c3a39;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toolbar {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+ .logo {
     width: 77px;
     height: 15px;
-    left: 12px;
     top: 10px;
     margin-left: 20px;
     font-family: "Times New Roman", Times, serif;
@@ -84,14 +91,14 @@
 
   .description {
     position: static;
-    width: 270px;
+    width: 327px;
     height: 123px;
     top: 295px;
     font-family: "Times New Roman", Times, serif;
     font-style: normal;
-    font-weight: 200;
-    font-size: 16.268px;
-    line-height: 16px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 18px;
     color: #fff;
     flex: none;
     order: 2;
@@ -100,11 +107,9 @@
 
   .illustrate {
     position: absolute;
-    left: 39%;
+    left: 57.6%;
     right: -50.14%;
-    top: 0%;
-    bottom: 0%;
-    margin-top: 28%;
+    margin-top: 25%;
   }
 
   .social {

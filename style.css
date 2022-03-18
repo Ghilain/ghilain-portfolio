@@ -5,7 +5,7 @@
     background: #3c3a39;
     display: flex;
     position: absolute;
-    left: 0.01px;
+    margin-left: -10px;
     top: -1px;
   }
 
@@ -13,7 +13,7 @@
     height: 15px;
     width: 20px;
     flex: none;
-    order: 0;
+    margin-left: 80px;
   }
 
   .toolbar {
@@ -28,7 +28,7 @@
     left: 12px;
     top: 10px;
     margin-left: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -43,7 +43,7 @@
     position: absolute;
     width: 375px;
     height: 500px;
-    top: 50px;
+    top: 49px;
     left: 0.01px;
     background: #1c1a19;
   }
@@ -54,7 +54,7 @@
     height: 90px;
     left: 2px;
     top: 1px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 45px;
@@ -69,7 +69,7 @@
     height: 17px;
     left: 24px;
     top: 256px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 600;
     font-size: 19px;
@@ -87,7 +87,7 @@
     width: 270px;
     height: 123px;
     top: 295px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 200;
     font-size: 16.268px;
@@ -114,9 +114,15 @@
     width: 170px;
     height: 30px;
     left: 24px;
-    top: 330px;
+    margin-top: -20px;
+    list-style-type: none;
+    margin-left: 10px;
     flex: none;
     order: 3;
-    margin: -32px 0.01px;
+  }
+
+  li {
+    align-content: space-between;
+    padding-right: 20px;
   }
 }

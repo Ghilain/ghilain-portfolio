@@ -1,22 +1,9 @@
 @media only screen and (max-width: 375px) {
-  /*.header {
-    width: 375px;
-    height: 51px;
-    background: #3c3a39;
-    display: flex;
-    position: absolute;
-    margin-left: -10px;
-    top: -1px;
+  body {
+    margin: 0;
   }
- .toolbar {
-    margin-top: 18px;
-    flex-grow: 1;
-  }*/
-  body{
-    margin: 0
-}
 
-.header {
+  .header {
     width: 375px;
     right: 20px;
     height: 51px;
@@ -24,13 +11,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.toolbar {
+  }
+
+  .toolbar {
     width: 60px;
     display: flex;
     justify-content: center;
-}
- .logo {
+  }
+
+  .logo {
     width: 77px;
     height: 15px;
     top: 10px;
@@ -125,7 +114,7 @@
     flex: none;
     order: 3;
   }
-  
+
   li {
     align-content: space-between;
     padding-right: 20px;

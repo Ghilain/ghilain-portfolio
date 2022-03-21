@@ -1,8 +1,4 @@
 @media only screen and (max-width: 375px) {
-  body {
-    margin: 0.01;
-  }
-
   .header {
     width: 375px;
     right: 20px;
@@ -11,6 +7,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    bottom: 7.6px;
   }
 
   .toolbar {
@@ -24,7 +22,7 @@
     height: 15px;
     top: 10px;
     margin-left: 20px;
-    font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -35,13 +33,12 @@
   .headline {
     display: flex;
     flex-direction: column;
-    padding: 60px 10px;
+    padding: 68px 10px;
     position: absolute;
     width: 375px;
     height: 410px;
-    top: 49px;
-    left: 0.01.01px;
-    bottom: 100px;
+    top: 50px;
+    left: -1.9901px;
     background: #1c1a19;
   }
 
@@ -49,24 +46,22 @@
     position: static;
     width: 240px;
     height: 90px;
-    left: 2px;
-    top: 1px;
-    font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 45px;
     line-height: 55px;
     color: #ff6b00;
-    margin: 12px 0.01px;
+    margin: 12px 10.01px;
   }
 
   .support {
-    position: static;
+    position: relative;
     width: 250px;
     height: 17px;
-    left: 24px;
-    top: 256px;
-    font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;
+    left: 1px;
+    top: 3px;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 600;
     font-size: 19px;
@@ -76,15 +71,14 @@
     color: #fff5e1;
     flex: none;
     order: 1;
-    margin: 10px 2px;
+    margin: 10px 10px;
   }
 
   .description {
     position: static;
     width: 327px;
     height: 123px;
-    top: 295px;
-    font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -92,12 +86,12 @@
     color: #fff;
     flex: none;
     order: 2;
-    margin: 2px 0.01px;
+    margin: 2px 10px;
   }
 
   .illustrate {
     position: absolute;
-    left: 57.6%;
+    left: 55.2%;
     right: -50.14%;
     margin-top: 25%;
   }
@@ -125,7 +119,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 120px 0.01px;
     position: absolute;
     width: 375px;
     height: 3455px;
@@ -145,7 +138,7 @@
     top: 307px;
     flex: none;
     order: 1;
-    margin: 80px 0px;
+    margin: 80px 0.01px;
   }
 
   .frame43 {
@@ -157,12 +150,8 @@
     width: 375px;
     height: 2436px;
     left: 0.01px;
-    margin-left: 20px;
-    top: 592px;
-    margin-top: -49px;
-    flex: none;
     order: 1;
-    margin: 24px 0px;
+    margin: 37px 35.01px 24px 20px;
   }
 
   .cardwork1 {
@@ -174,7 +163,7 @@
     background: url(image/Img-Placeholder.png);
     flex: none;
     order: 5;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .cardwork2 {
@@ -186,7 +175,7 @@
     background: url(image/Img-Placeholder.png);
     flex: none;
     order: 4;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .cardwork3 {
@@ -198,7 +187,7 @@
     background: url(image/Img-Placeholder.png);
     flex: none;
     order: 3;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .cardwork4 {
@@ -210,7 +199,7 @@
     background: url(image/Img-Placeholder.png);
     flex: none;
     order: 2;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .cardwork5 {
@@ -222,7 +211,7 @@
     background: url(image/Img-Placeholder.png);
     flex: none;
     order: 1;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .cardwork6 {
@@ -233,7 +222,7 @@
     top: 2050px;
     background: url(image/Img-Placeholder.png);
     flex: none;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .action {
@@ -246,7 +235,6 @@
     justify-content: center;
     align-items: center;
     width: 327px;
-    height: 48px;
     background: #ff6b00;
   }
 
@@ -268,9 +256,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 108px;
-  }
-
-  .titlpost1 {
   }
 
   .titlpost {
@@ -424,10 +409,8 @@
     justify-content: center;
     border: 1px solid #8993a4;
     box-sizing: border-box;
-    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
   }
 
   .bootstrap1 {
@@ -437,10 +420,8 @@
     width: 95px;
     height: 40px;
     display: flex;
-    justify-content: center;
     border: 1px solid #8993a4;
     box-sizing: border-box;
-    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -452,8 +433,6 @@
     background: #fff;
     width: 56px;
     height: 40px;
-    display: flex;
-    justify-content: center;
     border: 1px solid #8993a4;
     box-sizing: border-box;
     display: flex;
@@ -463,12 +442,12 @@
   }
 
   .css1 {
-    margin: 1px 2px 10px 0px;
+    margin-top: 1px;
+    margin-right: 2px;
+    margin-bottom: 10px;
     background: #fff;
     width: 49px;
     height: 40px;
-    display: flex;
-    justify-content: center;
     border: 1px solid #8993a4;
     box-sizing: border-box;
     display: flex;
@@ -522,7 +501,7 @@
     border: 1px solid #212121;
     flex: none;
     order: 1;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .titl {
@@ -540,7 +519,7 @@
     align-items: center;
     color: #1c1a19;
     flex: none;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .aboutdiv {
@@ -552,7 +531,7 @@
     width: 375px;
     height: 563px;
     left: 0.01px;
-    top: 4137px;
+    top: 4030px;
     background-color: black;
     margin-top: 120px;
   }
@@ -585,7 +564,7 @@
     border: none;
     flex: none;
     order: 2;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .descrpt {
@@ -602,7 +581,7 @@
     color: #f4f5f7;
     flex: none;
     order: 1;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .prmtxt {
@@ -619,7 +598,7 @@
     letter-spacing: 0.37px;
     color: #ff6b00;
     flex: none;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .grpimg {
@@ -636,15 +615,11 @@
   .divider {
     position: absolute;
     width: 327px;
-    height: 17px;
-    left: 24px;
-    top: 4780px;
     order: 4;
-    position: absolute;
     height: 0.01px;
     left: 0.01px;
     right: 0.01px;
-    top: calc(99% - 0px / 2 + 0.5px);
+    top: calc(99% - 1px / 2 + 0.5px);
     border: 1px solid #fff;
     margin-left: 20px;
   }
@@ -658,7 +633,7 @@
     width: 329px;
     height: 1600.46px;
     left: calc(50% - 377px / 2);
-    top: 5058px;
+    top: 4950px;
     background-color: #000;
   }
 
@@ -671,6 +646,7 @@
     height: 272px;
     flex: none;
     order: 1;
+    margin-left: 8px;
   }
 
   .nameskill2 {
@@ -683,6 +659,7 @@
     height: 272px;
     flex: none;
     order: 1;
+    margin-left: 31px;
   }
 
   .nameskill3 {
@@ -695,13 +672,15 @@
     height: 272px;
     flex: none;
     order: 1;
+    margin-left: 31px;
   }
 
   .terminal {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 12px 0px;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
     position: static;
     width: 114px;
     height: 48px;
@@ -709,14 +688,13 @@
     top: 224px;
     flex: none;
     order: 4;
-    margin: 8px 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #fff;
   }
@@ -724,8 +702,9 @@
   .gitlab {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 12px 0px;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
     position: static;
     width: 114px;
     height: 48px;
@@ -733,14 +712,13 @@
     top: 224px;
     flex: none;
     order: 3;
-    margin: 8px 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #fff;
   }
@@ -748,8 +726,9 @@
   .codepen {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 12px 0px;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
     position: static;
     width: 114px;
     height: 48px;
@@ -757,14 +736,13 @@
     top: 224px;
     flex: none;
     order: 2;
-    margin: 8px 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #fff;
   }
@@ -772,23 +750,23 @@
   .github12 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 12px 0px;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
     position: static;
-    width: 114px;
+    width: 129px;
     height: 48px;
     left: 12px;
     top: 224px;
     flex: none;
     order: 1;
-    margin: 8px 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #fff;
   }
@@ -796,22 +774,22 @@
   .codekit {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 12px 0px;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
     position: static;
     width: 114px;
     height: 48px;
     left: 12px;
     top: 224px;
     flex: none;
-    margin: 8px 0.01px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #fff;
   }
@@ -827,7 +805,7 @@
     left: 0.01px;
     top: 0.01px;
     flex: none;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .skit2 {
@@ -841,7 +819,7 @@
     left: 0.01px;
     top: 0.01px;
     flex: none;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .skit3 {
@@ -855,7 +833,7 @@
     left: 0.01px;
     top: 0.01px;
     flex: none;
-    margin: 24px 0px;
+    margin: 24px 0.01px;
   }
 
   .nametit {
@@ -949,7 +927,7 @@
     top: 120px;
     flex: none;
     order: 2;
-    margin: 80px 0.01px 24px -70px;
+    margin: 173px 0.01px 24px -70px;
   }
 
   .rect2 {

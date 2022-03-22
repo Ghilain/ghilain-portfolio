@@ -553,7 +553,7 @@
     padding-bottom: 9px;
     position: absolute;
     width: 375px;
-    height: 2340px;
+    height: 1881px;
     left: -1.99px;
     top: 4333px;
     background-color: #1c1a19;
@@ -573,6 +573,7 @@
     background: #ff6b00;
     order: 2;
     margin-left: 24px;
+    margin-top: 28px;
   }
 
   .buton3 {
@@ -632,8 +633,17 @@
 
   button:hover {
     cursor: pointer;
-    background-color: rgb(245, 169, 99);
-    box-shadow: 1px 1px rgb(245, 169, 99);
+    background-color: rgb(236, 118, 6);
+  }
+
+  button:active {
+    cursor: pointer;
+    background-color: rgb(250, 153, 43);
+  }
+
+  button:enabled {
+    cursor: pointer;
+    background-color: #ff6b00;
   }
 
   .grpimg {
@@ -654,7 +664,7 @@
     height: 0.01px;
     left: 0.01px;
     right: 0.01px;
-    top: calc(99% - 3412px / 2 + 0.5px);
+    top: calc(99% - 2433px / 2 + 0.5px);
     border: 1px solid #fff;
     margin-left: 24px;
   }
@@ -664,57 +674,40 @@
     flex-direction: column;
     align-items: center;
     padding-top: 44px;
-    padding-bottom: 128px;
+    padding-bottom: 24px;
     padding-left: 120px;
     position: absolute;
-    left: calc(50% - 446px / 2);
+    left: calc(50% - 427px / 2);
     top: 835px;
+    word-wrap: break-word;
+    margin-top: 22px;
   }
 
   .nameskill {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    position: static;
-    flex: none;
     order: 1;
-    margin-left: -15px;
-    margin-top: -16px;
+    margin-left: -5px;
   }
 
   .nameskill2 {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-items: center;
-    position: static;
-    width: 138px;
-    height: 272px;
-    flex: none;
     order: 1;
-    margin-left: 11px;
-    margin-top: -18px;
+    margin-left: -2px;
   }
 
   .nameskill3 {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-items: center;
-    position: static;
-    width: 138px;
-    height: 272px;
-    flex: none;
+    justify-content: center;
     order: 1;
-    margin-left: 11px;
-    margin-top: -17px;
+    margin-left: -5px;
   }
 
   .terminal {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 12px;
     padding-bottom: 12px;
     position: static;
     width: 114px;
@@ -723,9 +716,8 @@
     top: 224px;
     flex: none;
     order: 4;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 22px;
+    font-family: "inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -738,8 +730,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
     position: static;
     width: 114px;
     height: 48px;
@@ -747,8 +737,6 @@
     top: 224px;
     flex: none;
     order: 3;
-    margin-top: 8px;
-    margin-bottom: 8px;
     font-family: "inter", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -762,8 +750,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
     position: static;
     width: 114px;
     height: 48px;
@@ -771,8 +757,6 @@
     top: 224px;
     flex: none;
     order: 2;
-    margin-top: 8px;
-    margin-bottom: 8px;
     font-family: "inter", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -786,31 +770,89 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     position: static;
-    width: 129px;
+    width: 108px;
     height: 48px;
     left: 12px;
     top: 224px;
     flex: none;
     order: 1;
-    margin-top: 8px;
-    margin-bottom: 8px;
     font-family: "inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
-    text-align: center;
+    color: #fff;
+  }
+
+  .github13 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: -16px;
+    position: static;
+    width: 144px;
+    height: 48px;
+    left: 12px;
+    top: 224px;
+    flex: none;
+    order: 1;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
     color: #fff;
   }
 
   .codekit {
     display: flex;
     flex-direction: row;
+    padding-top: 19px;
     justify-content: center;
-    padding-top: 12px;
+    position: static;
+    width: 114px;
+    height: 48px;
+    left: 12px;
+    top: 224px;
+    flex: none;
+    margin-top: 7px;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #fff;
+  }
+
+  .codekit1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 19px;
+    justify-content: center;
+    position: static;
+    width: 114px;
+    height: 48px;
+    left: 12px;
+    top: 224px;
+    flex: none;
+    margin-top: 7px;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #fff;
+  }
+
+  .terminal1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding-bottom: 12px;
     position: static;
     width: 114px;
@@ -818,8 +860,8 @@
     left: 12px;
     top: 224px;
     flex: none;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    order: 4;
+    margin-bottom: 22px;
     font-family: "inter", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -829,50 +871,70 @@
     color: #fff;
   }
 
-  .skit {
+  .gitlab1 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 8px 12px;
+    justify-content: center;
     position: static;
-    width: 169px;
-    height: 40px;
-    left: 0.01px;
-    top: 0.01px;
+    width: 114px;
+    height: 48px;
+    left: 12px;
+    top: 224px;
     flex: none;
-    margin: 24px 0.01px;
+    order: 3;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    text-align: center;
+    color: #fff;
   }
 
-  .skit2 {
+  .codepen1 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 8px 12px;
+    justify-content: center;
     position: static;
-    width: 169px;
-    height: 40px;
-    left: 0.01px;
-    top: 0.01px;
+    width: 114px;
+    height: 48px;
+    left: 12px;
+    top: 224px;
     flex: none;
-    margin: 24px 0.01px;
+    order: 2;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    text-align: center;
+    color: #fff;
   }
 
-  .skit3 {
+  .github14 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 8px 12px;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
     position: static;
-    width: 169px;
-    height: 40px;
-    left: 0.01px;
-    top: 0.01px;
+    width: 108px;
+    height: 48px;
+    left: 12px;
+    top: 224px;
     flex: none;
-    margin: 24px 0.01px;
+    order: 1;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #fff;
   }
 
-  .nametit {
+  .nametit3 {
     position: static;
+    flex-direction: row;
     width: 115px;
     height: 24px;
     left: 42px;
@@ -885,13 +947,13 @@
     display: flex;
     align-items: center;
     color: #fff;
-    flex: none;
-    order: 1;
-    margin: 0.01px 12px;
+    margin-top: -20px;
+    margin-left: -10px;
   }
 
   .nametit2 {
     position: static;
+    flex-direction: row;
     width: 115px;
     height: 24px;
     left: 42px;
@@ -904,39 +966,33 @@
     display: flex;
     align-items: center;
     color: #fff;
-    flex: none;
     order: 1;
-    margin: 0.01px 12px;
+    margin-top: -19px;
+    margin-left: -29px;
   }
 
-  .skil1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .nametit {
     position: static;
-    width: 281px;
-    height: 336px;
-    left: 24px;
-    top: 425.46px;
-    flex: none;
-    order: 1;
-    margin: 59px 0.01px 24px -70px;
-  }
-
-  .skil3 {
+    flex-direction: row;
+    width: 115px;
+    height: 24px;
+    left: 42px;
+    top: 8px;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    position: static;
-    width: 281px;
-    height: 336px;
-    left: 24px;
-    top: 425.46px;
-    margin: 24px 0.01px 24px -70px;
-    flex: none;
+    color: #fff;
+    order: 2;
+    margin-top: -19px;
+    margin-left: 18px;
   }
 
   .rect1 {
+    display: flex;
     position: static;
     width: 18px;
     height: 18px;
@@ -945,24 +1001,13 @@
     border-radius: 150px;
     background: #ff6b00;
     flex: none;
-    margin: 0.01px 12px;
-  }
-
-  .skil2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: static;
-    width: 225.46px;
-    height: 281.46px;
-    left: 51.77px;
-    top: 120px;
-    flex: none;
+    margin-left: -11px;
+    margin-top: 33px;
     order: 2;
-    margin: 147px 0.01px 24px -38px;
   }
 
   .rect2 {
+    display: flex;
     position: static;
     width: 18px;
     height: 18px;
@@ -970,10 +1015,17 @@
     top: 11px;
     background: #ff6b00;
     flex: none;
-    margin: 0.01px 12px;
+    margin-left: -70px;
+    margin-top: 48px;
+    order: 1;
+  }
+
+  ul {
+    list-style-type: none;
   }
 
   .rect3 {
+    display: flex;
     position: static;
     width: 18px;
     height: 18px;
@@ -982,6 +1034,7 @@
     background: #ff6b00;
     transform: rotate(-45deg);
     flex: none;
-    margin: 0.01px 12px;
+    margin-left: -47px;
+    margin-top: -3px;
   }
 }

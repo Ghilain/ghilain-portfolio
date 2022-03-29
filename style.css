@@ -1099,4 +1099,58 @@
     color: #fff;
     margin: 3px 100px;
   }
+
+  .entertext {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 43.64%;
+    bottom: 21.82%;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 24px 0px;
+    height: 114px;
+    width: 327px;
+    background: #FBF8F7;
+    padding: 8px;
+  }
+  .emailaddress {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 21.82%;
+    bottom: 63.64%;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+    height: 48px;
+    width: 327px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+  }
+  .fullname {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 85.45%;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0px;
+    height: 48px;
+    width: 327px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+  }
 }

@@ -1054,7 +1054,7 @@
     position: absolute;
     width: 425px;
     height: 930px;
-    left: 0px;
+    left: 0;
     top: 6343px;
   }
 
@@ -1062,7 +1062,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     position: static;
     width: 327px;
     height: 330px;
@@ -1089,15 +1089,14 @@
     order: 3;
     flex-grow: 0;
     top: 12px;
-    font-family: "Inter";
+    font-family: "inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #fff;
     margin: 3px 100px;
   }
-
 }

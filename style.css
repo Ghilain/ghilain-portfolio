@@ -1058,4 +1058,46 @@
     top: 6343px;
   }
 
+  .formcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 327px;
+    height: 330px;
+    left: 24px;
+    top: 394px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 58px 24px;
+  }
+
+  .getintouch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    position: static;
+    width: 131px;
+    height: 48px;
+    left: 98px;
+    background: #ff6b00;
+    border: none;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    top: 12px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin: 3px 100px;
+  }
+
 }

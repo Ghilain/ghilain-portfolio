@@ -1189,6 +1189,35 @@
     flex-grow: 0;
     margin: 24px 0px;
   }
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    position: absolute;
+    width: 425px;
+    height: 72px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    top: 1142px;
+  }
+  .socialfooter {
+    display: flex;
+    position: static;
+    width: 200px;
+    height: 40px;
+    list-style-type: none;
+    flex: none;
+  }
+  .soci1footer {
+    margin-right: 20px;
+  }
+
+
+
+
+
+
 
   
 }

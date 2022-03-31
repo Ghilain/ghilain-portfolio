@@ -273,7 +273,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 12px;
     position: absolute;
     width: 129px;
     height: 48px;
@@ -291,6 +290,72 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    border-style: none;
+  }
+
+  .buton4:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 369px;
+    height: 58px;
+    background: #fff5e1;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
+
+  .buton4:active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 369px;
+    height: 58px;
+    background: #e05304;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    color: #f4f1f0;
+    border-style: none;
+  }
+
+  .buton4:disabled {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 369px;
+    height: 58px;
+    background: #f4f1f0;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    color: #5b5957;
     border-style: none;
   }
 

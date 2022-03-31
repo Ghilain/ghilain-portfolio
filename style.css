@@ -1,4 +1,13 @@
 @media only screen and (max-width: 425px) {
+  .imagcss > a {
+    display: none;
+  }
+
+  .titlpost2,
+  .supporttext13 {
+    display: none;
+  }
+
   .header {
     width: 425px;
     height: 51px;
@@ -693,14 +702,14 @@
   .nameskill {
     align-items: center;
     order: 1;
-    margin-left: -5px;
+    margin-left: -47px;
   }
 
   .nameskill2 {
     align-items: center;
     justify-items: center;
     order: 1;
-    margin-left: -2px;
+    margin-left: -47px;
   }
 
   .nameskill3 {
@@ -708,7 +717,7 @@
     justify-items: center;
     justify-content: center;
     order: 1;
-    margin-left: -5px;
+    margin-left: -47px;
   }
 
   .terminal {
@@ -800,7 +809,6 @@
     justify-content: center;
     padding-top: 7px;
     padding-bottom: 7px;
-    margin-left: -16px;
     position: static;
     width: 144px;
     height: 48px;

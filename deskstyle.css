@@ -9,7 +9,16 @@
     top: 0;
     background: #3e3c3c;
   }
-
+  a {
+    transition: all 0.5s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    background-color: #fff;
+    color: #333;
+  }
+  
   .logo {
     flex-direction: row;
     padding: 10px 12px;

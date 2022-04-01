@@ -9,14 +9,15 @@
     top: 0;
     background: #3e3c3c;
   }
+
   a {
     transition: all 3s ease-out;
   }
-  
+
   a:hover {
     background-color: rgb(7, 46, 68);
   }
-  
+
   .logo {
     flex-direction: row;
     padding: 10px 12px;
@@ -215,20 +216,22 @@
     margin-top: 454px;
     margin-left: -568px;
   }
-  .description:hover{
 
+  .description:hover {
     animation-duration: 1ms;
     animation-name: bounce;
     animation-iteration-count: 10;
   }
+
   @keyframes bounce {
-    from{
+    from {
       margin-left: 100%;
       width: 30%;
     }
-    to{
+
+    to {
       margin-left: 0%;
-      width:10%
+      width: 10%;
     }
   }
 

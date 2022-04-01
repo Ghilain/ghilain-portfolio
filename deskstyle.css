@@ -10,13 +10,11 @@
     background: #3e3c3c;
   }
   a {
-    transition: all 0.5s ease-out;
+    transition: all 3s ease-out;
   }
   
-  a:hover,
-  a:focus {
-    background-color: #fff;
-    color: #333;
+  a:hover {
+    background-color: rgb(7, 46, 68);
   }
   
   .logo {
@@ -216,6 +214,22 @@
     flex-grow: 0;
     margin-top: 454px;
     margin-left: -568px;
+  }
+  .description:hover{
+
+    animation-duration: 1ms;
+    animation-name: bounce;
+    animation-iteration-count: 10;
+  }
+  @keyframes bounce {
+    from{
+      margin-left: 100%;
+      width: 30%;
+    }
+    to{
+      margin-left: 0%;
+      width:10%
+    }
   }
 
   .recent-work {

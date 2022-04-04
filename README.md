@@ -10,7 +10,7 @@
 
 ## Live demo
 
-[Link](https://nmeziany.github.io/SkeletonMobilePortfolio/)
+[Link](https://ghilain.github.io/mobile-version-skeleton/)
 
 ## Getting Started
 

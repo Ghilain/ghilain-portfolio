@@ -1,12 +1,16 @@
-# Setup and mobile version skeleton
+# Portffolio 
 
->Portfolio setup and mobile version skeleton front-end page.
+>Portfolio setup desktop version and mobile version skeleton front-end page.
 
 
 ## Built With
 
 - HTML
 - CSS
+
+## Live demo
+
+https://ghilain.github.io/mobile-version-skeleton/
 
 
 

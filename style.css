@@ -34,7 +34,7 @@
     background-image: url(image/Union.png);
     width: 25px;
     height: 14px;
-    margin-right: 20px;
+    margin-right: -200px;
   }
 
   .logo {
@@ -261,6 +261,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     width: 327px;
     background: #ff6b00;
   }
@@ -702,14 +703,14 @@
   .nameskill {
     align-items: center;
     order: 1;
-    margin-left: -47px;
+    margin-left: -5px;
   }
 
   .nameskill2 {
     align-items: center;
     justify-items: center;
     order: 1;
-    margin-left: -47px;
+    margin-left: -2px;
   }
 
   .nameskill3 {
@@ -717,7 +718,7 @@
     justify-items: center;
     justify-content: center;
     order: 1;
-    margin-left: -47px;
+    margin-left: -5px;
   }
 
   .terminal {
@@ -809,6 +810,7 @@
     justify-content: center;
     padding-top: 7px;
     padding-bottom: 7px;
+    margin-left: -16px;
     position: static;
     width: 144px;
     height: 48px;

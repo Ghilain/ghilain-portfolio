@@ -48,8 +48,19 @@
     font-size: 15px;
     line-height: 15px;
     color: #fff;
+    animation-name: spinner;
+    animation-duration: 2s;
   }
 
+  @keyframes spinner {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
   .headline {
     display: flex;
     flex-direction: column;

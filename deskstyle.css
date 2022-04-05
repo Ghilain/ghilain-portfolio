@@ -39,6 +39,18 @@
     order: 0;
     flex-grow: 0;
     margin: 0 10px;
+    animation-name: spinner;
+    animation-duration: 1s;
+  }
+  
+  @keyframes spinner {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   .imagcss {

@@ -22,15 +22,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:ital@1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:ital@1&display=swap" rel="stylesheet">
-<title>Portfolio</title>
+<title>Ghilain Portfolio</title>
 </head>
 <body>
   <header class="header">
     <div class="toolbar logo">Ghilain Ishimwe</div>
     <nav class="toolbar imagcss">
-      <a href="#" class="contactlink">Contact</a> 
-      <a href="#" class="aboutlink">About</a>
-      <a href="#" class="portfolink">Portfolio</a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="logo-text"
+                        viewBox="0 0 24 24">
+                        <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+                    </svg>
+      <a href="#contact" class="contactlink">Contact</a> 
+      <a href="#about" class="aboutlink">About</a>
+      <a href="#portfolio" class="portfolink">Portfolio</a>
     </nav>
     <div class="mail">
       <div class="mailsub">
@@ -38,7 +42,7 @@
       </div>
     </div>
   </header>
-  <section class="headline">
+  <section class="headline" id="portfolio">
       <h1 class="primary">Hey There.
         I’m Ghilain</h1>
         <h2 class="support">I’am a Software Developer</h2>
@@ -49,7 +53,7 @@
         <li class="soci1"><a href="https://rw.linkedin.com/in/ghilain-ishimwe-067a5b1b4"><img src="image/linkedin.png" alt="linkedin logo"></a></li>
         <li class="soci1"><a href="https://www.microverse.org/"><img src="image/peace.png" alt="social logo"></a></li>
         <li class="soci1"><a href="https://twitter.com/GhilainIshimwe"><img src="image/twitter.png" alt="twitter logo"></a></li>
-        <li class="soci1"><a href="https://www.microverse.org/"><img src="image/gmail.png" alt="social logo"></a></li>
+        <li class="soci1"><a href="https://www.microverse.org/"><img src="image/gmail.png" alt="Medium logo"></a></li>
      </ul>
      <div class="illustrate"></div>
     </section>
@@ -237,7 +241,7 @@
     </div>
   </section>
   <!--About me page in mobile version-->
-  <section class="aboutdiv">
+  <section class="aboutdiv" id="about">
     <h2 class="prmtxt">
       About me
     </h2>
@@ -281,12 +285,13 @@
     </div>
   </section>
   <!--Contact form in mobile version-->
-  <div class="contactme">
+  <div class="contactme" id="contact">
     <div class="formcon">
       <form action="https://formspree.io/f/mlezwnop" method="post">
-        <input type="text" placeholder="Full name" name="fullname" required class="fullname" maxlength="30">
-        <input type="email" placeholder="Email address" name="emailaddress" required class="emailaddress">
-        <textarea placeholder="Enter text here" class="entertext" name="textarea" required maxlength="500"></textarea>
+        <label for="fullname">
+           <input type="text" placeholder="Full name" id="fullname" name="fullname" required class="fullname" maxlength="30"></label>
+        <label for="emailaddress"><input type="email" placeholder="Email address" id="emailaddress" name="emailaddress" required class="emailaddress"></label>
+          <label for="textarea"><textarea placeholder="Enter text here" id="textarea" class="entertext" name="textarea" required maxlength="500"></textarea></label>
         <input type="submit" value="Get in touch" class="getintouch">
       </form>
     </div>
@@ -302,7 +307,7 @@
         <li class="soci1footer"><a href="https://rw.linkedin.com/in/ghilain-ishimwe-067a5b1b4"><img src="image/vector2.png" alt="linkedin logo"></a></li>
         <li class="soci1footer"><a href="https://www.microverse.org/"><img src="image/vector3.png" alt="social logo"></a></li>
         <li class="soci1footer"><a href="https://twitter.com/GhilainIshimwe"><img src="image/vector4.png" alt="twitter logo"></a></li>
-        <li class="soci1footer"><a href="https://www.microverse.org/"><img src="image/vector5.png" alt="social logo"></a></li>
+        <li class="soci1footer"><a href="https://www.microverse.org/"><img src="image/vector5.png" alt="Medium logo"></a></li>
      </ul>
      <div class="socialline"></div>
     </div>

@@ -1,8 +1,19 @@
 @media only screen and (min-width: 768px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .logo-text {
+    display: none;
+  }
+
   .header {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
     width: 1440px;
     height: 72px;
     left: 0;
@@ -39,6 +50,18 @@
     order: 0;
     flex-grow: 0;
     margin: 0 10px;
+    animation-name: spinner;
+    animation-duration: 1s;
+  }
+
+  @keyframes spinner {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   .imagcss {
@@ -149,6 +172,7 @@
     background-size: 40%;
     background-position-y: top;
     background-position-x: right;
+    z-index: -1;
   }
 
   .social {
@@ -245,6 +269,7 @@
     height: 1805px;
     left: 104px;
     top: 721px;
+    z-index: -1;
   }
 
   .frame44 {
@@ -544,7 +569,7 @@
     position: absolute;
     width: 1155px;
     height: 435px;
-    left: 0;
+    left: 17.5px;
     bottom: 0;
     top: 1313px;
   }
@@ -553,7 +578,7 @@
     position: absolute;
     width: 1155px;
     height: 448px;
-    left: -0.5px;
+    left: 17.5px;
     top: 837px;
     bottom: 459px;
   }
@@ -566,7 +591,7 @@
     position: absolute;
     width: 1156px;
     height: 448px;
-    left: -1px;
+    left: 0;
     top: 366px;
   }
 
@@ -668,6 +693,48 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
+  }
+
+  .buton2:hover {
+    background: #fff5e1;
+    width: 124px;
+    height: 24px;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
+
+  .buton2:active {
+    background: #e05304;
+    width: 124px;
+    height: 24px;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #f4f1f0;
+    border-style: none;
+  }
+
+  .buton2:disabled {
+    background: #f4f1f0;
+    width: 124px;
+    height: 24px;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #5b5957;
+    border-style: none;
   }
 
   .tag1 {
@@ -826,6 +893,7 @@
     background-position-x: right;
     background-position-y: 12%;
     background-size: 45%;
+    z-index: -1;
   }
 
   .prmtxt {
@@ -1274,6 +1342,7 @@
     height: 590px;
     left: 135px;
     top: 3875px;
+    z-index: -1;
   }
 
   .formcon {

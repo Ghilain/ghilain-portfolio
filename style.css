@@ -1,4 +1,9 @@
 @media only screen and (max-width: 425px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .imagcss > a {
     display: none;
   }
@@ -15,9 +20,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    bottom: 7.6px;
-    right: 10px;
+    position: fixed;
+    top: 0;
+    right: 2px;
   }
 
   .soci1 {
@@ -30,11 +35,13 @@
     justify-content: center;
   }
 
+  .logo-text {
+    color: #fff;
+    fill: #fff;
+  }
+
   .imagcss {
-    background-image: url(image/Union.png);
-    width: 25px;
-    height: 14px;
-    margin-right: -200px;
+    margin-left: 13rem;
   }
 
   .logo {
@@ -73,6 +80,7 @@
     top: 50px;
     left: -1.9901px;
     background: #1c1a19;
+    z-index: -1;
   }
 
   .primary {
@@ -158,6 +166,7 @@
     height: 3455px;
     left: 0.01px;
     top: 682px;
+    z-index: -1;
   }
 
   .frame44 {
@@ -587,6 +596,7 @@
     top: 4333px;
     background-color: #1c1a19;
     margin-top: 120px;
+    z-index: -1;
   }
 
   .action2 {
@@ -1078,6 +1088,7 @@
     height: 930px;
     left: 0;
     top: 6343px;
+    z-index: -1;
   }
 
   .formcon {

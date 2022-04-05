@@ -61,6 +61,7 @@
       transform: rotate(360deg);
     }
   }
+
   .headline {
     display: flex;
     flex-direction: column;

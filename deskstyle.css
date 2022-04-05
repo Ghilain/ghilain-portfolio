@@ -42,7 +42,7 @@
     animation-name: spinner;
     animation-duration: 1s;
   }
-  
+
   @keyframes spinner {
     from {
       transform: rotate(0deg);

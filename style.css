@@ -14,6 +14,17 @@
     display: none;
   }
 
+  .nav-list {
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: blue;
+    height: 400px;
+    width: 327px;
+  }
+
   .header {
     width: 425px;
     height: 51px;

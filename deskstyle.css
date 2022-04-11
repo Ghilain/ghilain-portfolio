@@ -9,6 +9,10 @@
     display: none;
   }
 
+  .nav-list {
+    display: none;
+  }
+
   .header {
     display: flex;
     flex-direction: row;
@@ -64,7 +68,7 @@
     }
   }
 
-  .nav-list {
+  .imagcss {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -128,7 +132,7 @@
     transform: scale(0);
   }
 
-  .nav-list > a {
+  .imagcss > a {
     position: static;
     width: 59px;
     height: 20px;

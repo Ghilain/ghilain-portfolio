@@ -9,6 +9,10 @@
     display: none;
   }
 
+  .nav-list {
+    display: none;
+  }
+
   .header {
     display: flex;
     flex-direction: row;
@@ -122,6 +126,10 @@
     order: 0;
     flex-grow: 0;
     margin: 0 8px;
+  }
+
+  .close-x {
+    transform: scale(0);
   }
 
   .imagcss > a {

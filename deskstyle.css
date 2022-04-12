@@ -1485,4 +1485,9 @@
     margin-left: -133px;
     background: #dfe1e6;
   }
+  .m-popUp{
+    width: auto;
+    background-color: black;
+    height: 200px;
+  }
 }

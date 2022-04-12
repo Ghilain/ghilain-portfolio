@@ -1330,4 +1330,10 @@
     background: #0d151e;
     border-radius: 10px;
   }
+
+  .m-popUp{
+    width: auto;
+    background-color: black;
+    height: 200px;
+  }
 }

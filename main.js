@@ -16,7 +16,7 @@ mobileMenu.addEventListener('click', () => {
 });
 //recent work
 const workSection = document.querySelector('#project');
-const cardList = document.getElementById('card')
+const cardList = document.getElementById('cards')
 
 const projectsList = [
   { id: 1,
@@ -75,7 +75,7 @@ const projectsList = [
   },
 ];
 
-const projectCards = projectsList.map((cards,) => `
+const projectCards = projectsList.map((cards) => `
 <div class="cardwork1">
 <div class="container">
   <div class="action">
@@ -99,6 +99,7 @@ const projectCards = projectsList.map((cards,) => `
 </div>
 
 `).join('');
+
 
 cardList.innerHTML += projectCards;
 

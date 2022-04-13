@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:ital@1&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/5d13e94c8b.js"
       crossorigin="anonymous"
@@ -14,15 +15,24 @@
   <body>
     <header class="header">
         <div id="logos">
-            <a href="#logo-name"><h2 class="logo">My logo</h2></a>
+            <a href="#logo-name"><h2 class="logo">Ghilain</h2></a>
         </div>
       <nav class="d-none ml">
         <i id="btn" class="d-none fas fa-bars two"></i>
       </nav>
+      <div class="nav-list1">
+        <span class="close-x">&times;</span>
+        <a href="#portfolio" class="portfolink1">Portfolio</a>
+        <div class="borderlink borderlink1"></div>
+        <a href="#about" class="aboutlink1">About</a>
+        <div class="borderlink borderlink2"></div>
+        <a href="#contact" class="contactlink1">Contact</a>
+        <div class="borderlink"></div>
+      </div>
 
       <nav class="nav  d-none-m">
         <ul class="nav-list d-block">
-            <li class="close"><img id="close" src="./photos/Icon.png" alt=""></li>
+            <li class="close">&times;</li>
           <li class="common-li"><a href="#portfolio">Portfolio</a></li>
           <li class="common-li"><a href="#about">About</a></li>
           <li class="common-li"><a href="#contact">Contact</a></li>
@@ -93,153 +103,15 @@
               <li>bootsrap</li>
               <li>Ruby</li>
             </ul>
-            <button type="submit" class="btn btns">see project</button>
+            <button id="btncli" type="submit" class="btn btns">see project</button>
           </div>
         </div>
       </div>
 
+      <ul id="pop" class="cards">
 
-
-
-      <ul class="cards">
-
-
-
-
-        <li class="size bg-1">
-          <div class="temp2 d-none">
-            <div class="pad">
-              <h3 class="work card-heading">Profesional Art Printing Data</h3>
-              <p class="text text-2">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-              <ul class="tech tech-2 li-btn">
-                <li>html</li>
-                <li>bootsrap</li>
-                <li>Ruby</li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <button type="submit" class="btn btns btn-2 btn-1st">see project</button>
-          </div>
-        </li>
-
-
-
-
-        <li class="size common-1">
-          <div class="temp2 ">
-            <div class="pad">
-              <h3 class="work card-heading">Profesional Art Printing Data</h3>
-              <p class="text text-2">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-              <ul class="tech tech-2">
-                <li>html</li>
-                <li>bootsrap</li>
-                <li>Ruby</li>
-              </ul>
-            </div>
-            <button type="submit" class="btn btns btn-2 d-none">see project</button>
-          </div>
-        </li>
-
-
-
-
-
-        <li class="size common-3">
-          <div class="temp2 ">
-            <div class="pad">
-              <h3 class="work card-heading">Profesional Art Printing Data</h3>
-              <p class="text text-2">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-              <ul class="tech tech-2">
-                <li>html</li>
-                <li>bootsrap</li>
-                <li>Ruby</li>
-              </ul>
-            </div>
-            <button type="submit" class="btn btns btn-2 d-none">see project</button>
-          </div>
-        </li>
-
-
-
-
-        <li class="size common-2">
-          <div class="temp2">
-            <div class="pad">
-              <h3 class="work card-heading">Profesional Art Printing Data</h3>
-              <p class="text text-2">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-              <ul class="tech tech-2">
-                <li>html</li>
-                <li>bootsrap</li>
-                <li>Ruby</li>
-              </ul>
-            </div>
-            <button type="submit" class="btn btns btn-2 d-none">see project</button>
-          </div>
-        </li>
-
-
-
-
-
-        <li class="size common-1">
-          <div class="temp2">
-            <div class="pad">
-              <h3 class="work card-heading">Profesional Art Printing Data</h3>
-              <p class="text text-2">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-              <ul class="tech tech-2">
-                <li>html</li>
-                <li>bootsrap</li>
-                <li>Ruby</li>
-              </ul>
-            </div>
-            <button type="submit" class="btn btns btn-2 d-none">see project</button>
-          </div>
-        </li>
-
-
-
-
-
-        <li class="size common-3">
-          <div class="temp2">
-            <div class="pad">
-              <h3 class="work card-heading">Profesional Art Printing Data</h3>
-              <p class="text text-2">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-              <ul class="tech tech-2">
-                <li>html</li>
-                <li>bootsrap</li>
-                <li>Ruby</li>
-              </ul>
-            </div>
-            <button type="submit" class="btn btns btn-2 d-none">see project</button>
-          </div>
-        </li>
       </ul>
 
-
-
-
-
-      
       <section id="about" class="about-section">
         <div class="container-2">
           <h4 class="about" id="About">About me</h4>
@@ -349,45 +221,12 @@
         </li>
       </ul>
       <hr class="hr-footer2" />
+      
     </section>
 
-    <div class="bgpopup">
-      <div class="container-pop">
-         <div class="multi-med">
-            <span class="multi">Multi Post Stories</span>
-            <span class="multi-media">Keeping track of hundreds  of components website</span>
-            <span id="close-popup">X</span>
-      </div>
-        <div class="js-pop">
-          <ul class="puOut">
-            <li>html</li>
-            <li>bootstrap</li>
-            <li>Ruby on rails</li>
-          </ul>
-        </div>
-        <div class="pop-querry">
-      <img class="img-popup" src="./photos/Snapshoot-Portfolio).png" alt="snapshoot" />
-      <div class="prg-btns">
-      <p class="live-prg">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text
-        ever since the 1500s, when an unknown printer took a galley of
-        type and scrambled it to make a type specimen book. It has
-        survived not only five centuries, but also the leap into
-        electronic typesetting, remaining essent
-      </p>
-      <div class="live-source">
-        <button class="btn-live" type="button">
-          See Live <img src="photos/b-Icon.png" alt="live icon" />
-        </button>
-        <button class="btn-live" type="button">
-          See Source <img src="photos/github-icon3.png" alt="github-icon" />
-        </button>
-      </div>
-    </div>
-    </div>
-      
-      </div>
+    <!-- //popup -->
+    <div id="popupwindow" class="bgpopup">
+
       </div>
     <!-- </div> -->
     <!-- <hr class="hr"> -->

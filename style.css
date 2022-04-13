@@ -5,11 +5,12 @@
   text-decoration: none;
   list-style: none;
 }
-.imagabackground{
+
+.imagabackground {
   width: 327px;
 }
 
-.btns2{
+.btns2 {
   margin-top: 10px;
 }
 
@@ -25,6 +26,20 @@
 
 .common-li a {
   color: #fff;
+}
+
+.nav-list1 a {
+  height: 24px;
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  text-decoration: none;
+  margin-left: 12px;
 }
 
 .header li a {
@@ -218,7 +233,6 @@ hr {
 .pad {
   padding-left: 15px;
   background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
-
 }
 
 .card-heading {
@@ -300,13 +314,13 @@ hr {
 }
 
 .hr {
-    justify-content: center;
-    width: 327px;
-    background-color: #0d151e;
-    height: 5px;
-    margin-top: -29px;
-    margin-left: 24px;
-    border-radius: 10px;
+  justify-content: center;
+  width: 327px;
+  background-color: #0d151e;
+  height: 5px;
+  margin-top: -29px;
+  margin-left: 24px;
+  border-radius: 10px;
 }
 
 .hr-1 {
@@ -480,6 +494,11 @@ button:disabled {
   overflow-y: scroll;
 }
 
+.img-popup {
+  width: 311px;
+  padding-top: 32px;
+}
+
 .container-pop {
   background-color: #fff;
   width: 90%;
@@ -491,7 +510,7 @@ button:disabled {
   flex-direction: column;
   align-items: center;
   top: 20px;
-  left: 17px;
+  left: 19px;
 }
 
 .multi {
@@ -524,7 +543,7 @@ button:disabled {
   flex-direction: row;
   align-items: center;
   list-style: none;
-  padding: 16px;
+  margin-left: -40px;
 }
 
 .live-prg {
@@ -562,22 +581,57 @@ button:disabled {
   width: 60px;
 }
 
-.hr-footer{
+.hr-footer {
   width: 100%;
   color: #dbd8d7;
-  margin: 94px 0 9px 0px;
+  margin: 94px 0 9px 0;
   text-align: center;
 }
-.hr-footer2{
+
+.hr-footer2 {
   width: 134px;
   height: 5px;
   margin: auto;
   bottom: 8px;
-  background: #0D151E;
+  background: #0d151e;
+}
+
+.nav-list1 {
+  display: none;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #3c3a39;
+  color: #fff;
+  height: 993px;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 20px;
+  padding-left: 30px;
+}
+
+.close-x {
+  display: flex;
+  justify-content: end;
+  font-size: 57px;
+  width: 92%;
+  color: #6f6c6b;
+}
+
+.nav-list1 div {
+  width: 92%;
+  height: 1px;
+  background: #6f6c6b;
 }
 
 @media screen and (min-width: 992px) {
   .d-none {
+    display: none;
+  }
+
+  .nav-list1 {
     display: none;
   }
 
@@ -676,8 +730,8 @@ button:disabled {
     margin-bottom: 12px;
   }
 
-  .name{
-    font-family: 'Crete Round';
+  .name {
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -685,16 +739,16 @@ button:disabled {
     margin-top: -200px;
   }
 
-  h3{
-    font-family: 'Inter';
+  h3 {
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
   }
 
-  .ptext{
-    font-family: 'Inter';
+  .ptext {
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -719,29 +773,30 @@ button:disabled {
     margin-bottom: 170px;
   }
 
-  .text1{
-    font-family: 'Inter',sans-serif;
+  .text1 {
+    font-family: 'inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: #091E42;
+    color: #091e42;
     width: 390px;
     height: 140px;
     float: right;
     text-align: left;
   }
+
   .head {
     width: 448px;
     height: 48px;
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #091E42;
+    color: #091e42;
   }
 
   .cards {
@@ -749,20 +804,22 @@ button:disabled {
     grid-template-columns: auto auto auto;
   }
 
-  .common-1 {
+  .bg2,
+  .bg5 {
     background-image: url("./images/MaskGroup1.png");
   }
 
-  .bg-1 {
+  .bg1 {
     background-image: url("./images/MaskGroup.png");
     border: 1px solid;
   }
 
-  .common-3 {
+  .bg3,
+  .bg6 {
     background-image: url("./images/MaskGroup2.png");
   }
 
-  .common-2{
+  .bg4 {
     background-image: url("./images/MaskGroup3.png");
   }
 
@@ -808,26 +865,22 @@ button:disabled {
     flex-direction: row;
     gap: 25px;
   }
-  form input,
-textarea {
-  width: 100%;
-  border: none;
-  border-radius: 4px;
-  padding: 12px;
-  color: #3c3a39;
-  font-size: 15px;
-}
 
-.divform{
-  width: 47.5%;
-  margin-top: 4%;
-}
-.divform hr{
-  width: 100%;
-}
-.tonic{
-  margin-left: -450px;
-}
+  form input,
+  textarea {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: #3c3a39;
+    font-size: 15px;
+  }
+
+  .divform {
+    width: 47.5%;
+    margin-top: 4%;
+  }
+
   .prg {
     display: flex;
     height: 256px;
@@ -835,17 +888,26 @@ textarea {
     margin-left: 43px;
     margin-top: 0.5px;
   }
-  .divprg{
+
+  hr {
+    margin: 23px 0 34px 4px;
+  }
+
+  .divform hr {
+    width: 100%;
+  }
+
+  .tonic {
+    margin-left: -450px;
+  }
+
+  .divprg {
     width: 31%;
   }
 
   .list-2 {
     display: flex;
     flex-direction: row;
-  }
-
-  hr {
-    margin: 23px 0 34px 4px;
   }
 
   .hr-1 {
@@ -942,8 +1004,8 @@ textarea {
     display: flex;
     flex-direction: column;
   }
-  
-  .hr-footer2{
+
+  .hr-footer2 {
     display: none;
   }
 }

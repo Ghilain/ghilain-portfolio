@@ -5,6 +5,13 @@
   text-decoration: none;
   list-style: none;
 }
+.imagabackground{
+  width: 327px;
+}
+
+.btns2{
+  margin-top: 10px;
+}
 
 .header {
   background-color: #3c3a39;
@@ -67,9 +74,9 @@ h3 {
   color: #fff;
   height: 600px;
   padding-left: 24px;
-  background-image: url(./Group.png);
+  background-image: url(./image/illustration-header-mobile.png);
   background-repeat: no-repeat;
-  background-position: 240px 328px;
+  background-position: 266px 241px;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -132,7 +139,7 @@ p {
 hr {
   width: 327px;
   color: #dbd8d7;
-  margin: 24px 0 80px 4px;
+  margin: 24px 0 80px 28px;
   text-align: center;
 }
 
@@ -180,7 +187,6 @@ hr {
   border: none;
   font-size: 17px;
   width: 124px;
-  margin: 22px 0;
 }
 
 .li-btn {
@@ -245,9 +251,9 @@ hr {
   margin-top: 120px;
   height: 600px;
   padding-left: 24px;
-  background-image: url(./photos/Group1.png);
+  background-image: url(./image/Frame.png);
   background-repeat: no-repeat;
-  background-position: 240px 328px;
+  background-position: 254px 300px;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -275,30 +281,32 @@ hr {
 .about-section ul li {
   margin-bottom: 32px;
   font-size: 22px;
-  padding-left: 38px;
+  text-align: center;
 }
 
 .skills {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding-left: 86px;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 120px;
 }
 
 .about-section .main {
   font-size: 32px;
   padding-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .hr {
-  margin-right: 120px;
-  margin-left: 120px;
-  justify-content: center;
-  width: 134px;
-  background-color: #0d151e;
-  height: 5px;
-  margin-bottom: 8px;
-  border-radius: 10px;
+    justify-content: center;
+    width: 327px;
+    background-color: #0d151e;
+    height: 5px;
+    margin-top: -29px;
+    margin-left: 24px;
+    border-radius: 10px;
 }
 
 .hr-1 {
@@ -554,6 +562,20 @@ textarea:hover {
   width: 60px;
 }
 
+.hr-footer{
+  width: 100%;
+  color: #dbd8d7;
+  margin: 94px 0 9px 0px;
+  text-align: center;
+}
+.hr-footer2{
+  width: 134px;
+  height: 5px;
+  margin: 16px 0 9px 124px;
+  bottom: 8px;
+  background: #0D151E;
+}
+
 @media screen and (min-width: 992px) {
   .d-none {
     display: none;
@@ -628,7 +650,7 @@ textarea:hover {
   }
 
   .container {
-    background-image: url("./photos/desktop/head.png");
+    background-image: url("./images/Illustration-header.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right bottom;
@@ -644,8 +666,34 @@ textarea:hover {
   .list {
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    margin-left: 65px;
     margin-bottom: 12px;
+  }
+
+  .name{
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    margin-top: -200px;
+  }
+
+  h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .ptext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width: 500px;
   }
 
   .temp {
@@ -653,6 +701,7 @@ textarea:hover {
     flex-direction: row;
     align-items: center;
     gap: 24px;
+    padding-left: 8%;
   }
 
   .temp img {
@@ -661,7 +710,32 @@ textarea:hover {
   }
 
   .data {
-    margin-bottom: 147px;
+    margin-bottom: 170px;
+  }
+
+  .text1{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091E42;
+    width: 390px;
+    height: 140px;
+    float: right;
+    text-align: left;
+  }
+  .head {
+    width: 448px;
+    height: 48px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091E42;
   }
 
   .cards {
@@ -670,19 +744,24 @@ textarea:hover {
   }
 
   .common-1 {
-    background-image: url("./photos/desktop/common-1.png");
+    background-image: url("./images/MaskGroup1.png");
   }
 
   .bg-1 {
-    background-image: url("./photos/desktop/bg-1.png");
+    background-image: url("./images/MaskGroup.png");
+    border: 1px solid;
   }
 
   .common-3 {
-    background-image: url("./photos/desktop/common-3.png");
+    background-image: url("./images/MaskGroup2.png");
+  }
+
+  .common-2{
+    background-image: url("./images/MaskGroup3.png");
   }
 
   .container-2 {
-    background-image: url("./photos/desktop/footer.png");
+    background-image: url("./images/Frame.png");
     background-position: 100% 136px;
     margin-left: 142px;
     background-repeat: no-repeat;
@@ -748,18 +827,19 @@ textarea:hover {
   }
 
   .line-work {
-    margin-top: 20%;
+    margin-top: 18.5%;
     width: 100%;
+    background-color: #212121;
   }
 
   .cards2 {
     text-align: center;
     display: flex;
-    padding-left: 13%;
   }
 
   .tech {
     margin-bottom: 12px;
+    margin-top: 2px;
   }
 
   .hr-line {
@@ -771,7 +851,7 @@ textarea:hover {
   }
 
   .work-text {
-    padding-left: 11rem;
+    padding-left: 6.2rem;
   }
 
   .hr-footer {
@@ -780,6 +860,7 @@ textarea:hover {
 
   .top-line {
     width: 794px;
+    margin-left: 1%;
   }
 
   .multi-media {

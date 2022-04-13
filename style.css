@@ -392,17 +392,17 @@ textarea:hover {
   justify-content: center;
 }
 
-.tonic button:hover {
+button:hover {
   color: #f55800;
   background-color: #fff5e1;
 }
 
-.tonic button:active {
+button:active {
   background: #e05304;
   color: #fff;
 }
 
-.tonic button:disabled {
+button:disabled {
   color: #5b5957;
   background: #f4f1f0;
 }
@@ -663,6 +663,12 @@ textarea:hover {
     gap: 10%;
   }
 
+  .about-section ul li {
+    margin-bottom: 32px;
+    font-size: 22px;
+    text-align: left;
+  }
+
   .list {
     display: flex;
     flex-direction: column;
@@ -783,6 +789,7 @@ textarea:hover {
     display: flex;
     gap: 20%;
     flex-direction: row;
+    padding-left: 170px;
   }
 
   .hr {
@@ -791,6 +798,7 @@ textarea:hover {
     height: 0;
     border: 1px solid #fff;
     margin-bottom: 90px;
+    margin-left: 8%;
   }
 
   .form {
@@ -800,13 +808,35 @@ textarea:hover {
     flex-direction: row;
     gap: 25px;
   }
+  form input,
+textarea {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  color: #3c3a39;
+  font-size: 15px;
+}
 
+.divform{
+  width: 47.5%;
+  margin-top: 4%;
+}
+.divform hr{
+  width: 100%;
+}
+.tonic{
+  margin-left: -450px;
+}
   .prg {
     display: flex;
-    justify-content: center;
-    width: 334px;
     height: 256px;
-    margin-bottom: 82%;
+    text-align: left;
+    margin-left: 43px;
+    margin-top: 0.5px;
+  }
+  .divprg{
+    width: 31%;
   }
 
   .list-2 {
@@ -911,5 +941,9 @@ textarea:hover {
   .prg-btns {
     display: flex;
     flex-direction: column;
+  }
+  
+  .hr-footer2{
+    display: none;
   }
 }

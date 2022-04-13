@@ -571,7 +571,7 @@ button:disabled {
 .hr-footer2{
   width: 134px;
   height: 5px;
-  margin: 16px 0 9px 124px;
+  margin: auto;
   bottom: 8px;
   background: #0D151E;
 }

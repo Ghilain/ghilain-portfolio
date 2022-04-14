@@ -121,7 +121,7 @@ const projectCards = projectsList.map((cards) => `
             </div>
           </div>
           <div>
-            <button id="btncli${cards.id}" type="submit" class="btn btns btn-2 ${cards.butt}">see project</button>
+            <button id="btncli${cards.id}" onclick='showPop(${cards.id})' type="submit" class="btn btns btn-2 ${cards.butt}">see project</button>
           </div>
         </li>
 
@@ -131,15 +131,15 @@ cardList.innerHTML += projectCards;
 
 // Popup window
 const popupWindow = document.querySelector('.bgpopup');
+const box = document.getElementById('popupwindow');
 
 const popWindowContent = [
   {
+    idi: 0,
     name1: 'Multi Post Stories',
     name2: 'Keeping track of hundreds  of components website',
-    closee: 'X',
-    li1: 'html',
-    li2: 'bootstrap',
-    li3: 'Ruby on rails',
+    closee: '&times;',
+    tech: ['html', 'bootstrap', 'Ruby on rails'],
     featuredImagepop: './images/popupdesk.png',
     popDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting
   industry. Lorem Ipsum has been the industry's standard dummy text
@@ -149,75 +149,185 @@ const popWindowContent = [
   electronic typesetting, remaining essent`,
     imageSeelive: 'images/seelive.png',
     imageSeeproject: 'images/logogit.png',
+    imagSeen: 'img-popup',
+    buttonPop: 'btn-live1',
+    buttonPop1: 'btn-live2',
+    liveSource: 'live-source',
+    ulistPop: 'puOut',
+    livePrg: 'live-prg',
+
+  },
+  {
+    idi: 1,
+    name1: 'Profesional Art Printing Data',
+    name2: 'Keeping track of hundreds  of components website',
+    closee: '&times;',
+    tech: ['html', 'bootstrap', 'Ruby on rails'],
+    featuredImagepop: './images/MaskGroup3.png',
+    popDescription: `A daily selection of privately personalized
+     reads; no accounts or sign-ups required. has been the 
+     industry's standard`,
+    imageSeelive: 'images/seelive.png',
+    imageSeeproject: 'images/logogit.png',
+    imagSeen: 'img-popup1',
+    buttonPop: 'btn-live3',
+    buttonPop1: 'btn-live4',
+    liveSource: 'live-source1',
+    ulistPop: 'puOut1',
+    livePrg: 'live-prg1',
+  },
+  {
+    idi: 2,
+    name1: 'Profesional Art Printing Data',
+    name2: 'Keeping track of hundreds  of components website',
+    closee: '&times;',
+    tech: ['html', 'bootstrap', 'Ruby on rails'],
+    featuredImagepop: './images/MaskGroup3.png',
+    popDescription: `A daily selection of privately personalized
+     reads; no accounts or sign-ups required. has been the 
+     industry's standard`,
+    imageSeelive: 'images/seelive.png',
+    imageSeeproject: 'images/logogit.png',
+    imagSeen: 'img-popup1',
+    buttonPop: 'btn-live3',
+    buttonPop1: 'btn-live4',
+    liveSource: 'live-source1',
+    ulistPop: 'puOut1',
+    livePrg: 'live-prg1',
+
+  },
+  {
+    idi: 3,
+    name1: 'Profesional Art Printing Data',
+    name2: 'Keeping track of hundreds  of components website',
+    closee: '&times;',
+    tech: ['html', 'bootstrap', 'Ruby on rails'],
+    featuredImagepop: './images/MaskGroup3.png',
+    popDescription: `A daily selection of privately personalized
+     reads; no accounts or sign-ups required. has been the 
+     industry's standard`,
+    imageSeelive: 'images/seelive.png',
+    imageSeeproject: 'images/logogit.png',
+    imagSeen: 'img-popup1',
+    buttonPop: 'btn-live3',
+    buttonPop1: 'btn-live4',
+    liveSource: 'live-source1',
+    ulistPop: 'puOut1',
+    livePrg: 'live-prg1',
+
+  },
+  {
+    idi: 4,
+    name1: 'Profesional Art Printing Data',
+    name2: 'Keeping track of hundreds  of components website',
+    closee: '&times;',
+    tech: ['html', 'bootstrap', 'Ruby on rails'],
+    featuredImagepop: './images/MaskGroup3.png',
+    popDescription: `A daily selection of privately personalized
+     reads; no accounts or sign-ups required. has been the 
+     industry's standard`,
+    imageSeelive: 'images/seelive.png',
+    imageSeeproject: 'images/logogit.png',
+    imagSeen: 'img-popup1',
+    buttonPop: 'btn-live3',
+    buttonPop1: 'btn-live4',
+    liveSource: 'live-source1',
+    ulistPop: 'puOut1',
+    livePrg: 'live-prg1',
+
+  },
+  {
+    idi: 5,
+    name1: 'Profesional Art Printing Data',
+    name2: 'Keeping track of hundreds  of components website',
+    closee: '&times;',
+    tech: ['html', 'bootstrap', 'Ruby on rails'],
+    featuredImagepop: './images/MaskGroup3.png',
+    popDescription: `A daily selection of privately personalized
+     reads; no accounts or sign-ups required. has been the 
+     industry's standard`,
+    imageSeelive: 'images/seelive.png',
+    imageSeeproject: 'images/logogit.png',
+    imagSeen: 'img-popup1',
+    buttonPop: 'btn-live3',
+    buttonPop1: 'btn-live4',
+    liveSource: 'live-source1',
+    ulistPop: 'puOut1',
+    livePrg: 'live-prg1',
+
+  },
+  {
+    idi: 6,
+    name1: 'Profesional Art Printing Data',
+    name2: 'Keeping track of hundreds  of components website',
+    closee: '&times;',
+    tech: ['html', 'bootstrap', 'Ruby on rails'],
+    featuredImagepop: './images/MaskGroup3.png',
+    popDescription: `A daily selection of privately personalized
+     reads; no accounts or sign-ups required. has been the 
+     industry's standard`,
+    imageSeelive: 'images/seelive.png',
+    imageSeeproject: 'images/logogit.png',
+    imagSeen: 'img-popup1',
+    buttonPop: 'btn-live3',
+    buttonPop1: 'btn-live4',
+    liveSource: 'live-source1',
+    ulistPop: 'puOut1',
+    livePrg: 'live-prg1',
 
   },
 ];
-
-const popupWindowBox = popWindowContent.map((popwindow) => `
+function popData(popwindow) {
+  const temp = document.createElement('template');
+  temp.innerHTML = `
 <div class="container-pop">
 <div class="multi-med">
    <span class="multi">${popwindow.name1}</span>
    <span class="multi-media">${popwindow.name2}</span>
-   <span id="close-popup">${popwindow.closee}</span>
+   <span id="close-popup" class="popupclose">${popwindow.closee}</span>
 </div>
 <div class="js-pop">
- <ul class="puOut">
-   <li>${popwindow.li1}</li>
-   <li>${popwindow.li2}</li>
-   <li>${popwindow.li3}</li>
+ <ul class="${popwindow.ulistPop}">
+
+   ${popwindow.tech.map((litech, index) => `<li class="${index}">${litech}</li>`).join('')}
  </ul>
 </div>
 <div class="pop-querry">
-<img class="img-popup" src="${popwindow.featuredImagepop}" alt="snapshoot" />
+<img class="${popwindow.imagSeen}" src="${popwindow.featuredImagepop}" alt="snapshoot" />
 <div class="prg-btns">
-<p class="live-prg">
+<p class="${popwindow.livePrg}">
 ${popwindow.popDescription}
 </p>
-<div class="live-source">
-<button class="btn-live" type="button">
+<div class="${popwindow.liveSource}">
+<button class="${popwindow.buttonPop}" type="button">
  See Live <img src="${popwindow.imageSeelive}" alt="live icon" />
 </button>
-<button class="btn-live" type="button">
+<button class="${popwindow.buttonPop1}" type="button">
  See Source <img src="${popwindow.imageSeeproject}" alt="github-icon" />
 </button>
 </div>
 </div>
 </div>
 </div>
-`);
-popupWindow.innerHTML = popupWindowBox;
-
-const closeWindow = document.querySelector('#close-popup');
-closeWindow.addEventListener('click', () => {
-  popupWindow.style.display = 'none';
-});
-
-const openWindow = document.getElementById('btncli');
-const openWindowcar = document.getElementById('btncli1');
-const openWindowcar1 = document.getElementById('btncli2');
-const openWindowcar2 = document.getElementById('btncli3');
-const openWindowcar3 = document.getElementById('btncli4');
-const openWindowcar4 = document.getElementById('btncli5');
-const openWindowcar5 = document.getElementById('btncli6');
-
-openWindow.addEventListener('click', () => {
-  popupWindow.style.display = 'flex';
-});
-openWindowcar.addEventListener('click', () => {
-  popupWindow.style.display = 'flex';
-});
-openWindowcar1.addEventListener('click', () => {
-  popupWindow.style.display = 'flex';
-});
-openWindowcar2.addEventListener('click', () => {
-  popupWindow.style.display = 'flex';
-});
-openWindowcar3.addEventListener('click', () => {
-  popupWindow.style.display = 'flex';
-});
-openWindowcar4.addEventListener('click', () => {
-  popupWindow.style.display = 'flex';
-});
-openWindowcar5.addEventListener('click', () => {
-  popupWindow.style.display = 'flex';
-});
+`;
+  const box = document.getElementById('popupwindow');
+  box.appendChild(temp.content);
+}
+function showPop(idi) {
+  popWindowContent.find((popwindow) => {
+    if (Number(idi) === Number(popwindow.idi)) {
+      popData(popwindow);
+      popupWindow.style.display = 'flex';
+    }
+  });
+  const closeWindow1 = document.querySelector('#close-popup');
+  const openinWindow = document.querySelector('.container-pop');
+  closeWindow1.addEventListener('click', () => {
+    box.innerHTML = '';
+    popupWindow.style.display = 'none';
+  });
+  closeWindow1.addEventListener('click', () => {
+    box.innerHTML = '';
+    openinWindow.style.display = 'none';
+  });
+}

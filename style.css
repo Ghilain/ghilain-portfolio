@@ -91,7 +91,7 @@ h3 {
   padding-left: 24px;
   background-image: url(./image/illustration-header-mobile.png);
   background-repeat: no-repeat;
-  background-position: 266px 241px;
+  background-position: 228px 241px;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -292,6 +292,13 @@ hr {
   border: 1px solid #dfe1e6;
 }
 
+.puOut1 li {
+  padding: 10px 10px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 10px;
+  border: 1px solid #dfe1e6;
+}
+
 .about-section ul li {
   margin-bottom: 32px;
   font-size: 22px;
@@ -409,6 +416,7 @@ textarea:hover {
 button:hover {
   color: #f55800;
   background-color: #fff5e1;
+  border: solid 1px #f55800;
 }
 
 button:active {
@@ -483,7 +491,8 @@ button:disabled {
 }
 
 .bgpopup {
-  background-color: #979493;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   display: none;
   top: 0;
@@ -495,14 +504,22 @@ button:disabled {
 }
 
 .img-popup {
-  width: 311px;
-  padding-top: 32px;
+  width: 92%;
+  padding-top: 6%;
+  margin-left: 4%;
+}
+
+.img-popup1 {
+  width: 88%;
+  padding-top: 6%;
+  margin-left: 6%;
+  height: 40%;
 }
 
 .container-pop {
   background-color: #fff;
   width: 90%;
-  height: 100%;
+  height: 94%;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -510,16 +527,17 @@ button:disabled {
   flex-direction: column;
   align-items: center;
   top: 20px;
-  left: 19px;
+  left: 16px;
 }
 
 .multi {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  height: 82px;
-  width: 284px;
+  width: 269px;
   left: 0;
   top: 0;
+  padding-bottom: 5%;
+  margin-left: -2.5%;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -529,13 +547,14 @@ button:disabled {
 
 .multi-med {
   display: inline-flex;
+  width: 92%;
+  margin-left: 4%;
 }
 
 #close-popup {
-  width: 12px;
-  height: 12px;
-  padding-top: 13px;
-  padding-left: 6px;
+  font-size: 40px;
+  margin-left: 13%;
+  color: #6f6c6b;
 }
 
 .puOut {
@@ -543,24 +562,85 @@ button:disabled {
   flex-direction: row;
   align-items: center;
   list-style: none;
-  margin-left: -40px;
+  margin-left: -12%;
+}
+
+.puOut1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin-left: -7.5%;
 }
 
 .live-prg {
   color: #344563;
   font-size: 16px;
   font-family: "Inter", sans-serif;
-  width: 311px;
-  height: 220px;
-  margin: 12px 0;
+  width: 92%;
+  margin-left: 4%;
   order: 0;
   line-height: 24px;
   font-weight: 400;
   flex-grow: 0;
 }
 
-.btn-live {
-  padding: 6px 8px;
+.live-prg1 {
+  color: #344563;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  width: 92%;
+  margin-left: 4%;
+  order: 0;
+  line-height: 24px;
+  font-weight: 400;
+  flex-grow: 0;
+}
+
+.btn-live1 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 140px;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+  font-size: 17px;
+  position: absolute;
+  bottom: 2%;
+}
+
+.btn-live2 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 140px;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+  font-size: 17px;
+  position: absolute;
+  bottom: 2%;
+  left: 52%;
+}
+
+.btn-live3 {
+  position: absolute;
+  bottom: 2%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 144px;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+  font-size: 17px;
+}
+
+.btn-live4 {
+  position: absolute;
+  bottom: 2%;
+  left: 52%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 144px;
   color: #fff;
   background-color: #ff6b00;
   border: none;
@@ -575,6 +655,18 @@ button:disabled {
   display: flex;
   gap: 16px;
   flex-direction: row;
+  margin-top: 31%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.live-source1 {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  margin-top: 15%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .logoImg {
@@ -652,18 +744,44 @@ button:disabled {
     flex-direction: row;
     align-items: center;
     list-style: none;
-    padding: 16px;
-    padding-right: 635px;
+    padding: 26px;
+    margin-left: -6%;
+    margin-top: 91px;
+    padding-right: 620px;
+  }
+
+  .puOut1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 26px;
+    margin-left: -6%;
+    padding-bottom: 6%;
+    margin-top: 31%;
+    padding-right: 620px;
   }
 
   .pop-querry {
     display: flex;
     gap: 19px;
+    height: auto;
+    padding-bottom: 97px;
   }
 
   .img-popup {
     width: 566px;
-    padding-top: 32px;
+    padding-top: 0%;
+    height: 107%;
+    margin-left: 2%;
+  }
+
+  .img-popup1 {
+    width: 88%;
+    margin-left: 2%;
+    height: 74%;
+    padding-top: 0;
+    margin-top: -2%;
   }
 
   .d-none-m {
@@ -980,24 +1098,100 @@ button:disabled {
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    padding-top: 13px;
-    height: 326px;
+    margin-left: 0%;
+    margin-top: -2.5px;
+  }
+
+  .live-prg1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 0%;
+    margin-top: -4%;
+  }
+
+  .btn-live1 {
+    padding-top: 11px;
+    padding-bottom: 9px;
+    width: 140px;
+    color: #fff;
+    background-color: #ff6b00;
+    border: none;
+    font-size: 17px;
+    position: absolute;
+    bottom: 5%;
+    margin-left: -2%;
+  }
+
+  .btn-live2 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 140px;
+    color: #fff;
+    background-color: #ff6b00;
+    border: none;
+    font-size: 17px;
+    position: absolute;
+    bottom: 5%;
+    margin-left: 22%;
+  }
+
+  .btn-live3 {
+    position: absolute;
+    bottom: 4%;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    width: 144px;
+    margin-left: -3%;
+    color: #fff;
+    background-color: #ff6b00;
+    border: none;
+    font-size: 17px;
+  }
+
+  .btn-live4 {
+    position: absolute;
+    bottom: 4%;
+    margin-left: 15.5%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 144px;
+    color: #fff;
+    background-color: #ff6b00;
+    border: none;
+    font-size: 17px;
   }
 
   .container-pop {
     background-color: #fff;
-    height: 631px;
+    height: 582px;
     z-index: 1;
-    width: 1156px;
+    width: 1018px;
     position: absolute;
     bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
-    top: 20px;
-    left: 82px;
+    top: 1px;
+    left: 118px;
     justify-content: center;
+  }
+
+  .multi-med {
+    display: inline-flex;
+    width: 92%;
+    margin-left: -4%;
+    position: absolute;
+    top: 20px;
+  }
+
+  #close-popup {
+    font-size: 40px;
+    color: #6f6c6b;
+    padding-left: 12%;
   }
 
   .prg-btns {

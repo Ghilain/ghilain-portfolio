@@ -388,13 +388,6 @@ textarea {
   font-size: 15px;
 }
 
-input:hover {
-  transform: translate(20px, 10px);
-}
-
-textarea:hover {
-  transform: translate(20px, 10px);
-}
 
 .tonic button {
   background-color: #ff6b00;
@@ -411,6 +404,14 @@ textarea:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.form-warning-message {
+  color: red;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  width: auto;
+  margin: 20px 0;
 }
 
 button:hover {

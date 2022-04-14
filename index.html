@@ -156,7 +156,7 @@
           </ul>
         </div>
       </section>
-      
+
       <section id="contact" class="form">
         <div class="divprg">
           <h2 class="prg">
@@ -165,12 +165,12 @@
           </h2>
         </div>
         <div class="divform">
-          <form action="https://formspree.io/f/mlezwnop" method="post">
+          <form id="form" action="https://formspree.io/f/mlezwnop" onsubmit = "validate()" method="post">
             <input
               class="input"
               type="text"
               name="name"
-              id="name"
+              id="full-name name"
               placeholder="Full name"
               maxlength="30"
               required
@@ -188,7 +188,7 @@
             <textarea
               class="msg"
               name="message"
-              id="message"
+              id="user-message message"
               cols="30"
               rows="10"
               placeholder="Enter text here"
@@ -196,7 +196,8 @@
               required
             ></textarea>
             <div class="tonic">
-              <button class="btn-tonic" type="submit">Get In Touch</button>
+              <button id="submit" class="btn-tonic" type="submit">Get In Touch</button>
+              <p id = "warning-message" class="form-warning-message"></p>
             </div>
           </form>
         </div>

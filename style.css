@@ -91,7 +91,7 @@ h3 {
   padding-left: 24px;
   background-image: url(./image/illustration-header-mobile.png);
   background-repeat: no-repeat;
-  background-position: 100% 241px;
+  background-position: 228px 241px;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -388,14 +388,6 @@ textarea {
   font-size: 15px;
 }
 
-input:hover {
-  transform: translate(20px, 10px);
-}
-
-textarea:hover {
-  transform: translate(20px, 10px);
-}
-
 .tonic button {
   background-color: #ff6b00;
   color: #fff;
@@ -411,6 +403,15 @@ textarea:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.form-warning-message {
+  color: red;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  width: auto;
+  margin: 20px 0;
 }
 
 button:hover {
@@ -537,7 +538,7 @@ button:disabled {
   left: 0;
   top: 0;
   padding-bottom: 5%;
-  margin-left: 0%;
+  margin-left: -2.5%;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -562,7 +563,7 @@ button:disabled {
   flex-direction: row;
   align-items: center;
   list-style: none;
-  margin-left: -7.5%;
+  margin-left: -12%;
 }
 
 .puOut1 {
@@ -570,7 +571,7 @@ button:disabled {
   flex-direction: row;
   align-items: center;
   list-style: none;
-  margin-left: -6%;
+  margin-left: -7.5%;
 }
 
 .live-prg {
@@ -737,6 +738,16 @@ button:disabled {
 
   .live-source {
     padding-top: 44px;
+  }
+
+  #form-div {
+    display: none;
+    color: red;
+    padding: 10px;
+    margin-left: 26px;
+    width: 374px;
+    border-radius: 8px;
+    background: #fff;
   }
 
   .puOut {

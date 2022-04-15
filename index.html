@@ -166,7 +166,7 @@
         </div>
         <div class="divform">
           <form id="form" action="https://formspree.io/f/mlezwnop" onsubmit = "validate()" method="post">
-            <input
+            <label for="full-name"><input
               class="input"
               type="text"
               name="name"
@@ -174,18 +174,18 @@
               placeholder="Full name"
               maxlength="30"
               required
-            />
+            /></label>
             <hr />
-            <input
+            <label for="email"><input
               class="input"
               type="email"
               name="email"
               id="email"
               placeholder="Email address"
               required
-            />
+            /></label>
             <hr />
-            <textarea
+            <label for="user-message"><textarea
               class="msg"
               name="message"
               id="user-message"
@@ -194,7 +194,7 @@
               placeholder="Enter text here"
               maxlength="500"
               required
-            ></textarea>
+            ></textarea></label>
             <div class="tonic">
               <button id="submit" class="btn-tonic" type="submit">Get In Touch</button>
               <p id = "warning-message" class="form-warning-message"></p>

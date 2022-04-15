@@ -313,7 +313,7 @@ ${popwindow.popDescription}
   const box = document.getElementById('popupwindow');
   box.appendChild(temp.content);
 }
-
+let idi;
 function showPop(idi) {
   popWindowContent.find((popwindow) => {
     if (Number(idi) === Number(popwindow.idi)) {
@@ -333,3 +333,4 @@ function showPop(idi) {
     openinWindow.style.display = 'none';
   });
 }
+showPop(idi);

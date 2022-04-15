@@ -91,7 +91,7 @@ h3 {
   padding-left: 24px;
   background-image: url(./image/illustration-header-mobile.png);
   background-repeat: no-repeat;
-  background-position: 228px 241px;
+  background-position: 100% 241px;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -1192,6 +1192,7 @@ button:disabled {
     font-size: 40px;
     color: #6f6c6b;
     padding-left: 12%;
+    margin-left: 1%;
   }
 
   .prg-btns {

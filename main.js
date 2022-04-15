@@ -313,12 +313,14 @@ ${popwindow.popDescription}
   const box = document.getElementById('popupwindow');
   box.appendChild(temp.content);
 }
+let idi;
 function showPop(idi) {
   popWindowContent.find((popwindow) => {
     if (Number(idi) === Number(popwindow.idi)) {
       popData(popwindow);
       popupWindow.style.display = 'flex';
     }
+    return false;
   });
   const closeWindow1 = document.querySelector('#close-popup');
   const openinWindow = document.querySelector('.container-pop');
@@ -331,6 +333,7 @@ function showPop(idi) {
     openinWindow.style.display = 'none';
   });
 }
+showPop(idi);
 
 // form validation
 

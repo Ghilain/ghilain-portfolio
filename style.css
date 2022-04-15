@@ -388,7 +388,6 @@ textarea {
   font-size: 15px;
 }
 
-
 .tonic button {
   background-color: #ff6b00;
   color: #fff;
@@ -405,6 +404,7 @@ textarea {
   align-items: center;
   justify-content: center;
 }
+
 .form-warning-message {
   color: red;
   font-size: 20px;
@@ -1193,6 +1193,7 @@ button:disabled {
     font-size: 40px;
     color: #6f6c6b;
     padding-left: 12%;
+    margin-left: 1%;
   }
 
   .prg-btns {

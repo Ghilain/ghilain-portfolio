@@ -2,6 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-T90EGS446Y");
+  </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
@@ -156,7 +165,7 @@
           </ul>
         </div>
       </section>
-      
+
       <section id="contact" class="form">
         <div class="divprg">
           <h2 class="prg">
@@ -165,39 +174,41 @@
           </h2>
         </div>
         <div class="divform">
-          <form action="https://formspree.io/f/mlezwnop" method="post">
-            <label for="name"><input
+          <form id="contact-form" action="https://formspree.io/f/mlezwnop" onsubmit="" method="post" name = "myForm" >
+            <input
               class="input"
               type="text"
               name="name"
-              id="name"
+              id="full-name"
               placeholder="Full name"
               maxlength="30"
               required
-            /></label>
+            />
             <hr />
-            <label for="email"><input
+            <input
               class="input"
               type="email"
               name="email"
               id="email"
               placeholder="Email address"
               required
-            /></label>
+            />
             <hr />
-            <label for="message"> <textarea
+            <textarea
               class="msg"
               name="message"
-              id="message"
+              id="user-message"
               cols="30"
               rows="10"
               placeholder="Enter text here"
               maxlength="500"
               required
-            ></textarea></label>
+            ></textarea>
+            
             <div class="tonic">
-              <button class="btn-tonic" type="submit">Get In Touch</button>
+              <button id="submit" class="btn-tonic" type="submit" onclick="testValidation();">Get In Touch</button>
             </div>
+            <p id = "warning-message" class="form-warning-message"></p>
           </form>
         </div>
       </section>
@@ -231,5 +242,6 @@
       </div>
 
     <script src="main.js"></script>
+    <script src="formValidation.js"></script>
   </body>
 </html>

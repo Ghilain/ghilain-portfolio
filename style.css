@@ -740,6 +740,16 @@ button:disabled {
     padding-top: 44px;
   }
 
+  #form-div {
+    display: none;
+    color: red;
+    padding: 10px;
+    margin-left: 26px;
+    width: 374px;
+    border-radius: 8px;
+    background: #fff;
+  }
+
   .puOut {
     display: flex;
     flex-direction: row;

@@ -334,26 +334,3 @@ function showPop(idi) {
   });
 }
 showPop(idi);
-
-// form validation
-
-function validateEmail(email, event, errorMsg) {
-  if (email !== email.toLowerCase()) {
-    event.preventDefault();
-    const msg = document.getElementById('form-div');
-    msg.style.display = 'block';
-    msg.innerText = errorMsg;
-    msg.style.fontSize = '15px';
-  }
-}
-const form = document.getElementById('form');
-const email = document.getElementById('email')
-
-email.addEventListener('click',() => {
-  const msg = document.getElementById('form-div');
-  msg.style.display = 'none';
-})
-form.addEventListener('submit', (event) => {
-  const errorMessage = 'Please enter an email address without any upper-case letters.';
-  validateEmail(form.elements.email.value, event, errorMessage);
-});

@@ -14,6 +14,6 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
 
   if (!valid) {
     e.preventDefault();
-    responseContainer.innerHTML = 'Invalid Email: Email contain capital letter';
+    responseContainer.innerHTML = 'Invalid Email: Please enter email without uppercase!';
   }
 });

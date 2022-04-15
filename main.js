@@ -337,22 +337,23 @@ showPop(idi);
 
 // form validation
 
-document.querySelector('#form').addEventListener('submit', (e) => {
-  let valid = true;
-
-  const responseContainer = document.querySelector('#warning-message');
-
-  const emailArray = document.querySelector('#email').value.split('');
-
-  for (let i = 0; i < emailArray.length; i += 1) {
-    if (
-      emailArray[i] !== emailArray[i].toLowerCase() && emailArray[i] !== '@' && emailArray[i] !== '.') {
-      valid = false;
-    }
+function validateEmail(email, event, errorMsg) {
+  if (email !== email.toLowerCase()) {
+    event.preventDefault();
+    const msg = document.getElementById('form-div');
+    msg.style.display = 'block';
+    msg.innerText = errorMsg;
+    msg.style.fontSize = '15px';
   }
+}
+const form = document.getElementById('form');
+const email = document.getElementById('email')
 
-  if (!valid) {
-    e.preventDefault();
-    responseContainer.innerHTML = 'Invalid Email: Email contain capital letter';
-  }
+email.addEventListener('click',() => {
+  const msg = document.getElementById('form-div');
+  msg.style.display = 'none';
+})
+form.addEventListener('submit', (event) => {
+  const errorMessage = 'Please enter an email address without any upper-case letters.';
+  validateEmail(form.elements.email.value, event, errorMessage);
 });

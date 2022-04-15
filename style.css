@@ -537,7 +537,7 @@ button:disabled {
   left: 0;
   top: 0;
   padding-bottom: 5%;
-  margin-left: -2.5%;
+  margin-left: 0%;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -562,7 +562,7 @@ button:disabled {
   flex-direction: row;
   align-items: center;
   list-style: none;
-  margin-left: -12%;
+  margin-left: -7.5%;
 }
 
 .puOut1 {
@@ -570,7 +570,7 @@ button:disabled {
   flex-direction: row;
   align-items: center;
   list-style: none;
-  margin-left: -7.5%;
+  margin-left: -6%;
 }
 
 .live-prg {

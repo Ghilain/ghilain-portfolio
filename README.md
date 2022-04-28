@@ -14,8 +14,9 @@
 
 ## Getting Started
 
-git clone https://github.com/Ghilain/mobile-version-skeleton.git
-cd mobile-version-skeleton
+- git clone https://github.com/Ghilain/mobile-version-skeleton.git
+
+- cd mobile-version-skeleton
 
 ## Authors
 

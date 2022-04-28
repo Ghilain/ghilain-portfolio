@@ -21,9 +21,9 @@ cd mobile-version-skeleton
 
 👤 **Ghilain Ishimwe**
 
-- GitHub: [@githubhandle](https://github.com/Ghilain)
-- Twitter: [@twitterhandle](https://twitter.com/GhilainIshimwe)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/ghilain-ishimwe)
+- GitHub: [Ghilain Ishimwe](https://github.com/Ghilain)
+- Twitter: [Ghilain Ishimwe](https://twitter.com/GhilainIshimwe)
+- LinkedIn: [Ghilain Ishimwe](https://linkedin.com/in/ghilain-ishimwe)
 
 
 

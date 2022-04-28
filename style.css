@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+
 * {
   padding: 0;
   box-sizing: border-box;
@@ -91,7 +95,7 @@ h3 {
   padding-left: 24px;
   background-image: url(./image/illustration-header-mobile.png);
   background-repeat: no-repeat;
-  background-position: 228px 241px;
+  background-position: 100% 241px;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -152,9 +156,9 @@ p {
 }
 
 hr {
-  width: 327px;
+  width: 90%;
   color: #dbd8d7;
-  margin: 24px 0 80px 28px;
+  margin: 24px 0 80px 5%;
   text-align: center;
 }
 
@@ -168,7 +172,7 @@ hr {
 
 .size {
   height: 386px;
-  width: 327px;
+  width: 349px;
   align-self: center;
 }
 
@@ -227,7 +231,7 @@ hr {
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
-  gap: 50px;
+  gap: 31px;
 }
 
 .pad {
@@ -267,7 +271,7 @@ hr {
   padding-left: 24px;
   background-image: url(./image/Frame.png);
   background-repeat: no-repeat;
-  background-position: 254px 300px;
+  background-position: 100% 300px;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -322,11 +326,11 @@ hr {
 
 .hr {
   justify-content: center;
-  width: 327px;
+  width: 80%;
   background-color: #0d151e;
   height: 5px;
   margin-top: -29px;
-  margin-left: 24px;
+  margin-left: 10%;
   border-radius: 10px;
 }
 
@@ -719,7 +723,7 @@ button:disabled {
   background: #6f6c6b;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .d-none {
     display: none;
   }
@@ -728,8 +732,18 @@ button:disabled {
     display: none;
   }
 
+  .nav-list-menu .gone {
+    display: block;
+  }
+
   .two {
     display: none;
+  }
+
+  .size {
+    height: 386px;
+    width: 100%;
+    align-self: center;
   }
 
   .d-block {
@@ -835,7 +849,7 @@ button:disabled {
   .container {
     background-image: url("./images/Illustration-header.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
     background-position: right bottom;
     height: 870px;
     display: flex;
@@ -894,12 +908,12 @@ button:disabled {
   }
 
   .temp img {
-    width: 684px;
-    height: 448px;
+    width: 100%;
+    height: 100%;
   }
 
   .data {
-    margin-bottom: 170px;
+    margin-bottom: 42px;
   }
 
   .text1 {
@@ -954,8 +968,8 @@ button:disabled {
 
   .container-2 {
     background-image: url("./images/Frame.png");
-    background-position: 100% 136px;
-    margin-left: 142px;
+    background-position: 100% 139px;
+    margin-left: 23px;
     background-repeat: no-repeat;
     background-size: 39%;
   }

@@ -138,10 +138,11 @@ p {
 }
 
 .work {
-  font-size: 40px;
   color: #1c1a19;
   text-align: center;
   margin-top: 120px;
+  font-size: 27px;
+  font-weight: 700;
 }
 
 .text {
@@ -162,8 +163,48 @@ hr {
   text-align: center;
 }
 
+.temp1 {
+  background-image: url(./images/kwita-izina.PNG);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
 .temp2 {
-  background-image: url(./images/MaskGroup.png);
+  background-image: url(./images/food-recipee.PNG);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.temp3 {
+  background-image: url(./images/covid-pro.PNG);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.temp4 {
+  background-image: url(./images/budget-app.PNG);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.temp5 {
+  background-image: url(./images/recipe-food.PNG);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.temp6 {
+  background-image: url(./images/motobikin-phone.PNG);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -558,7 +599,7 @@ button:disabled {
 
 #close-popup {
   font-size: 40px;
-  margin-left: 13%;
+  margin-left: auto;
   color: #6f6c6b;
 }
 
@@ -726,6 +767,10 @@ button:disabled {
 @media screen and (min-width: 768px) {
   .d-none {
     display: none;
+  }
+
+  #btncli1 {
+    margin-top: 291px;
   }
 
   .nav-list1 {
@@ -947,23 +992,29 @@ button:disabled {
     grid-template-columns: auto auto auto;
   }
 
-  .bg2,
-  .bg5 {
-    background-image: url("./images/MaskGroup1.png");
-  }
-
   .bg1 {
-    background-image: url("./images/MaskGroup.png");
+    background-image: url("./images/kwita-izina.PNG");
     border: 1px solid;
   }
 
-  .bg3,
-  .bg6 {
-    background-image: url("./images/MaskGroup2.png");
+  .bg2 {
+    background-image: url("./images/food-recipee.PNG");
+  }
+
+  .bg3 {
+    background-image: url("./images/covid-pro.PNG");
   }
 
   .bg4 {
-    background-image: url("./images/MaskGroup3.png");
+    background-image: url("./images/budget-app.PNG");
+  }
+
+  .bg5 {
+    background-image: url("./images/recipe-food.PNG");
+  }
+
+  .bg6 {
+    background-image: url("./images/motobikin-phone.PNG");
   }
 
   .container-2 {
@@ -1081,9 +1132,7 @@ button:disabled {
     display: flex;
   }
 
-  .btn-2 {
-    margin-top: 105%;
-  }
+  /* h==codes to worked on */
 
   .work-text {
     padding-left: 6.2rem;

@@ -10,13 +10,13 @@
 
 ## Live demo
 
-[Link](https://ghilain.github.io/mobile-version-skeleton/)
+[Click on this Link view live demo ](https://ghilain.github.io/ghilain-portfolio/)
 
 ## Getting Started
 
-- git clone https://github.com/Ghilain/mobile-version-skeleton.git
+- git clone https://github.com/Ghilain/ghilain-portfolio.git
 
-- cd mobile-version-skeleton
+- cd ghilain-portfolio
 
 ## Authors
 

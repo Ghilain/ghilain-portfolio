@@ -10,6 +10,10 @@ body {
   list-style: none;
 }
 
+.profimga {
+  width: 16%;
+}
+
 .imagabackground {
   width: 327px;
 }

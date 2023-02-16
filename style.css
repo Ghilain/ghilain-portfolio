@@ -1061,6 +1061,7 @@ button:disabled {
     background-color: #fff;
     height: 0;
     border: 1px solid #fff;
+    margin-top: 2%;
     margin-bottom: 90px;
     margin-left: 8%;
   }

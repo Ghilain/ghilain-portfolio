@@ -777,6 +777,10 @@ button:disabled {
     display: none;
   }
 
+  .btn-res{
+    margin-right: 10%;
+  }
+  
   #btncli1 {
     margin-top: 291px;
   }

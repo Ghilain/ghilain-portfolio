@@ -328,9 +328,11 @@ hr {
   width: 160px;
   margin-bottom: 20px;
 }
-.btn-res1{
+
+.btn-res1 {
   margin-top: 15px;
 }
+
 .text-res {
   color: #fff;
 }
@@ -773,20 +775,24 @@ button:disabled {
   height: 1px;
   background: #6f6c6b;
 }
-.certificate-div{
+
+.certificate-div {
   display: contents;
 }
+
 @media screen and (min-width: 768px) {
   .d-none {
     display: none;
   }
 
-  .btn-res{
+  .btn-res {
     margin-right: 10%;
   }
-  .certificate-div{
+
+  .certificate-div {
     display: flex;
   }
+
   #btncli1 {
     margin-top: 291px;
   }

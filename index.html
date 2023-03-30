@@ -252,4 +252,28 @@
     <script src="main.js"></script>
     <script src="formValidation.js"></script>
   </body>
+
+
+  <script>
+    $(document).ready(function () {
+        $('#books').empty();
+
+        $.ajax({
+            type: 'GET',
+            url: '../../library/library.xml',
+            dataType: 'xml',
+            success: function (xml) {
+
+                $(xml).find('List').each(function () {
+                    $('#books').append(
+                        $(this).find('BookName').text() + '<br />')
+                });
+
+                setInterval('location.reload()', 7000);        // Using .reload() method.
+            }
+        });
+    });
+</script>
+
+
 </html>

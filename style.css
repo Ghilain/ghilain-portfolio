@@ -780,7 +780,9 @@ button:disabled {
   .btn-res{
     margin-right: 10%;
   }
-  
+  .certificate-div{
+    display: flex;
+  }
   #btncli1 {
     margin-top: 291px;
   }

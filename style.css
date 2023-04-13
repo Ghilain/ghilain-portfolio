@@ -326,7 +326,11 @@ hr {
 
 .btn-res {
   width: 160px;
-  margin-bottom: 57px;
+  margin-bottom: 20px;
+}
+
+.btn-res1 {
+  margin-top: 15px;
 }
 
 .text-res {
@@ -772,9 +776,22 @@ button:disabled {
   background: #6f6c6b;
 }
 
+.certificate-div {
+  display: contents;
+}
+
 @media screen and (min-width: 768px) {
   .d-none {
     display: none;
+  }
+
+  .btn-res {
+    margin-right: 10%;
+    margin-top: 0;
+  }
+
+  .certificate-div {
+    display: flex;
   }
 
   #btncli1 {
